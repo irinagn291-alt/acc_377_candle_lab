@@ -1,0 +1,925 @@
+// !$*UTF8*$!
+{
+	classes = {
+	};
+	objectVersion = 77;
+	archiveVersion = 1;
+	objects = {
+		1CA59C9C8B332C8C844B9148 /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+			buildConfigurations = (
+				766ED85E3A3B5288D455DA22 /* Debug */,
+				D4037AD9B63B42108E9DACB3 /* Release */,
+			);
+		};
+		3BA0EBBC862BFBBE88413308 /* CandleLabWidgetTests */ = {
+			productType = "com.apple.product-type.bundle.unit-test";
+			productReference = 4302D44B9225D6BE01B0048A /* CandleLabWidgetTests.xctest */;
+			buildConfigurationList = FE7FD866FD16594960FA9DB9 /* XCConfigurationList */;
+			productName = CandleLabWidgetTests;
+			isa = PBXNativeTarget;
+			buildPhases = (
+				F5913A0601866D119D2BBA0E /* PBXSourcesBuildPhase */,
+			);
+			dependencies = (
+				09D5A2AA45CDF43B96917826 /* PBXTargetDependency */,
+			);
+			name = CandleLabWidgetTests;
+			buildRules = (
+			);
+		};
+		C26A6FEBC3556CBF06252E98 /* Embed App Extensions */ = {
+			buildActionMask = 2147483647;
+			dstSubfolderSpec = 13;
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			dstPath = "";
+			files = (
+				EFC887AFFE0AAE29DD26654D /* PBXBuildFile */,
+			);
+			name = "Embed App Extensions";
+		};
+		52A1CB87B10FA6E557EB05CA /* WidgetTests/WidgetIntegrationTests.swift */ = {
+			path = WidgetTests/WidgetIntegrationTests.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		F622175AAF952A8B272AC21B /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 3F78A4801E25E9E8F0B5985C /* Learning.swift */;
+		};
+		D47C5A52D722A2CCA1A7FC7E /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E830E172F0417CF2E20D7CBE /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D831D77CDE24908403BC1E1C /* CandleLabTests.xctest */ = {
+			path = CandleLabTests.xctest;
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			lastKnownFileType = wrapper.cfbundle;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B4289024D895B3FD9D6FE587 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BB8CA7356AA86F5888C6B2 /* CandleLab */;
+			targetProxy = 10F0D7E653B21CC0FEB6B461 /* PBXContainerItemProxy */;
+		};
+		D4037AD9B63B42108E9DACB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				MARKETING_VERSION = 1.0.0;
+				CODE_SIGN_ENTITLEMENTS = Support/App.entitlements;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				INFOPLIST_FILE = Support/AppInfo.plist;
+				SDKROOT = iphoneos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.candlelab.study;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Release;
+		};
+		4D8E57585A957BD22E237E6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candlelab.CandleLabUITests;
+				SDKROOT = iphoneos;
+				TEST_TARGET_NAME = CandleLab;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10F0D7E653B21CC0FEB6B461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1DBAACDFF032E783F6D19EA /* PBXProject */;
+			remoteGlobalIDString = 01BB8CA7356AA86F5888C6B2 /* CandleLab */;
+			remoteInfo = CandleLab;
+			proxyType = 1;
+		};
+		A6FA52949F1BFCED7971C93E /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+			buildConfigurations = (
+				4D8E57585A957BD22E237E6A /* Debug */,
+				37591CD750295D0880B07708 /* Release */,
+			);
+		};
+		B4AD79E5D92DE9CA00AF32A9 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = AE4CE726E1DE87D68AD90F4C /* Sources/WidgetBridge.swift */;
+		};
+		E65A3A391047CCA552080BA2 /* WidgetShared/WidgetSnapshot.swift */ = {
+			path = WidgetShared/WidgetSnapshot.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		AED007B0AA948AC9C1D27E2F /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 72988615A04E8B0850CEAD1D /* Chart.swift */;
+		};
+		72988615A04E8B0850CEAD1D /* Chart.swift */ = {
+			path = Chart.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		FE7FD866FD16594960FA9DB9 /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				FE14A832D69F954BC24FA060 /* Debug */,
+				63451B32ECCA0408FC6D2C3D /* Release */,
+			);
+		};
+		B9E4859DBDF7FC0815361E93 /* WidgetShared/ProgressWidgetView.swift */ = {
+			path = WidgetShared/ProgressWidgetView.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		85D7FE02E12089FC10248106 /* Widgets */ = {
+			isa = PBXGroup;
+			name = Widgets;
+			children = (
+				B9E4859DBDF7FC0815361E93 /* WidgetShared/ProgressWidgetView.swift */,
+				6C8357D29FAA7C10669D048A /* WidgetShared/WidgetIdentity.swift */,
+				E65A3A391047CCA552080BA2 /* WidgetShared/WidgetSnapshot.swift */,
+				AE4CE726E1DE87D68AD90F4C /* Sources/WidgetBridge.swift */,
+				7EEC7541C0E539CC0721A985 /* WidgetExtension/ProgressWidget.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		4302D44B9225D6BE01B0048A /* CandleLabWidgetTests.xctest */ = {
+			path = CandleLabWidgetTests.xctest;
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A9E35E6A4473B6457E6E6AC1 /* CandleLabUITests */ = {
+			productType = "com.apple.product-type.bundle.ui-testing";
+			productReference = 6197B21561C42C8754BA69A3 /* CandleLabUITests.xctest */;
+			buildConfigurationList = A6FA52949F1BFCED7971C93E /* XCConfigurationList */;
+			packageProductDependencies = (
+			);
+			productName = CandleLabUITests;
+			isa = PBXNativeTarget;
+			buildPhases = (
+				F24871E736FD36D626422BCC /* PBXSourcesBuildPhase */,
+			);
+			dependencies = (
+				B4289024D895B3FD9D6FE587 /* PBXTargetDependency */,
+			);
+			name = CandleLabUITests;
+			buildRules = (
+			);
+		};
+		A0D486B63403208FEA474B1D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = B9E4859DBDF7FC0815361E93 /* WidgetShared/ProgressWidgetView.swift */;
+		};
+		E9ADD31A650C9695E7105A6F /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = E891F34BAAEB6F5775C807AB /* StudyViews.swift */;
+		};
+		766ED85E3A3B5288D455DA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				MARKETING_VERSION = 1.0.0;
+				INFOPLIST_FILE = Support/AppInfo.plist;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/App.entitlements;
+				SDKROOT = iphoneos;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.candlelab.study;
+				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Debug;
+		};
+		83CEA1CD0B13F24879D24DC0 /* PBXResourcesBuildPhase */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456B9EF31DEA922E5164F548 /* PBXBuildFile */,
+				B907C05F90E20F56FC6D075D /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965BD20B20A650E593644D4D /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D486B63403208FEA474B1D /* PBXBuildFile */,
+				699D5C3E51559DD6D9F8F5B5 /* PBXBuildFile */,
+				35A01E2FF1B716A79DADC7A7 /* PBXBuildFile */,
+				59A0187B6C21030F3EBFD2BC /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5608936FC053CFF949D5D07F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1DBAACDFF032E783F6D19EA /* PBXProject */;
+			remoteGlobalIDString = EBB96FBE490A719DEF840F01 /* CandleLabWidget */;
+			remoteInfo = CandleLabWidget;
+			proxyType = 1;
+		};
+		19EF8F0284CDB9EB0C82889F /* CandleLabTests */ = {
+			productType = "com.apple.product-type.bundle.unit-test";
+			productReference = D831D77CDE24908403BC1E1C /* CandleLabTests.xctest */;
+			buildConfigurationList = 519938AD812D5521465FF9F1 /* XCConfigurationList */;
+			packageProductDependencies = (
+			);
+			productName = CandleLabTests;
+			isa = PBXNativeTarget;
+			buildPhases = (
+				D47C5A52D722A2CCA1A7FC7E /* PBXSourcesBuildPhase */,
+			);
+			dependencies = (
+				94EF14F8A312E2497A2D8E14 /* PBXTargetDependency */,
+			);
+			name = CandleLabTests;
+			buildRules = (
+			);
+		};
+		9A3FF9277ECABF5DF3197065 /* Assets.xcassets */ = {
+			path = Assets.xcassets;
+			isa = PBXFileReference;
+			lastKnownFileType = folder.assetcatalog;
+			sourceTree = "<group>";
+		};
+		6197B21561C42C8754BA69A3 /* CandleLabUITests.xctest */ = {
+			path = CandleLabUITests.xctest;
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			lastKnownFileType = wrapper.cfbundle;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		087439AF99D3FAE490DA7711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_COMMA = YES;
+				SWIFT_VERSION = 6.0;
+				CLANG_WARN_INT_CONVERSION = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				SDKROOT = iphoneos;
+				CLANG_WARN_EMPTY_BODY = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+			};
+			name = Release;
+		};
+		94EF14F8A312E2497A2D8E14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BB8CA7356AA86F5888C6B2 /* CandleLab */;
+			targetProxy = C4C9FC34E5527B57E6451131 /* PBXContainerItemProxy */;
+		};
+		FE14A832D69F954BC24FA060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CandleLab";
+				GENERATE_INFOPLIST_FILE = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				CODE_SIGN_STYLE = Automatic;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.candlelab.study.widgettests;
+			};
+		};
+		E21EA9CBD4296F97B0E8726D /* Tests */ = {
+			path = Tests;
+			isa = PBXGroup;
+			children = (
+				565F5E514D06714F3F49A23A /* LearningTests.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		859B656B29209314899B1408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandleLab.app/CandleLab";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candlelab.CandleLabTests;
+				SDKROOT = iphoneos;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F4DC4450E352A56A31521AD /* PBXFrameworksBuildPhase */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB96FBE490A719DEF840F01 /* CandleLabWidget */ = {
+			productType = "com.apple.product-type.app-extension";
+			productReference = 940CF04FFD17809D30FDA71F /* CandleLabWidget.appex */;
+			buildConfigurationList = 7A531E4E869D9BCEC344E4B6 /* XCConfigurationList */;
+			productName = CandleLabWidget;
+			isa = PBXNativeTarget;
+			buildPhases = (
+				965BD20B20A650E593644D4D /* PBXSourcesBuildPhase */,
+				2F4DC4450E352A56A31521AD /* PBXFrameworksBuildPhase */,
+				28B5C076BE426393AC56CBC6 /* PBXResourcesBuildPhase */,
+			);
+			dependencies = (
+			);
+			name = CandleLabWidget;
+			buildRules = (
+			);
+		};
+		28B5C076BE426393AC56CBC6 /* PBXResourcesBuildPhase */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC887AFFE0AAE29DD26654D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 940CF04FFD17809D30FDA71F /* CandleLabWidget.appex */;
+			settings = {
+				ATTRIBUTES = (
+					RemoveHeadersOnCopy,
+				);
+			};
+		};
+		35A01E2FF1B716A79DADC7A7 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = E65A3A391047CCA552080BA2 /* WidgetShared/WidgetSnapshot.swift */;
+		};
+		36B723B06AB5D0665543ABF2 /* CandleLab.app */ = {
+			path = CandleLab.app;
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			lastKnownFileType = wrapper.application;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		699D5C3E51559DD6D9F8F5B5 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 6C8357D29FAA7C10669D048A /* WidgetShared/WidgetIdentity.swift */;
+		};
+		A055581B49BFC2B1574FC489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_COMMA = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 6.0;
+				CLANG_WARN_INT_CONVERSION = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				SDKROOT = iphoneos;
+				CLANG_WARN_EMPTY_BODY = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ENABLE_TESTABILITY = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				GCC_DYNAMIC_NO_PIC = NO;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+			};
+			name = Debug;
+		};
+		83FC324999AFB5A19358D352 /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+			buildConfigurations = (
+				A055581B49BFC2B1574FC489 /* Debug */,
+				087439AF99D3FAE490DA7711 /* Release */,
+			);
+		};
+		3B0ABBDD609524643C017EDD /* CandleLabApp.swift */ = {
+			path = CandleLabApp.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		2EC972F07F3AFBE01C032227 /* PBXGroup */ = {
+			isa = PBXGroup;
+			sourceTree = "<group>";
+			children = (
+				7D17A9CB9EECCAFCDE46CA95 /* Sources */,
+				E21EA9CBD4296F97B0E8726D /* Tests */,
+				A4B70112028BAA64B1D6FB40 /* UITests */,
+				F1268FCE3B3423C57943617E /* Products */,
+				85D7FE02E12089FC10248106 /* Widgets */,
+				52A1CB87B10FA6E557EB05CA /* WidgetTests/WidgetIntegrationTests.swift */,
+				AE7C61E5E47D67B3CDD67EF7 /* WidgetTests/WidgetTests.swift */,
+			);
+		};
+		565F5E514D06714F3F49A23A /* LearningTests.swift */ = {
+			path = LearningTests.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		63451B32ECCA0408FC6D2C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandleLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CandleLab";
+				PRODUCT_BUNDLE_IDENTIFIER = com.candlelab.study.widgettests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				CODE_SIGN_STYLE = Automatic;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+			};
+		};
+		2498749272F725531CEC41C2 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = E65A3A391047CCA552080BA2 /* WidgetShared/WidgetSnapshot.swift */;
+		};
+		F24871E736FD36D626422BCC /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B595702EF3E5E9DF82AEDD1 /* PBXBuildFile */,
+				F93B69EA73DB7283418FF441 /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9B2216B69B476058527B0E /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 6C8357D29FAA7C10669D048A /* WidgetShared/WidgetIdentity.swift */;
+		};
+		91504D0195B83AFF0526B911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CandleLab.app/CandleLab";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candlelab.CandleLabTests;
+				SDKROOT = iphoneos;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E830E172F0417CF2E20D7CBE /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 565F5E514D06714F3F49A23A /* LearningTests.swift */;
+		};
+		59A0187B6C21030F3EBFD2BC /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 7EEC7541C0E539CC0721A985 /* WidgetExtension/ProgressWidget.swift */;
+		};
+		3F78A4801E25E9E8F0B5985C /* Learning.swift */ = {
+			path = Learning.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		A4B70112028BAA64B1D6FB40 /* UITests */ = {
+			path = UITests;
+			isa = PBXGroup;
+			children = (
+				843895DE902CD61A78F96A0C /* CandleLabUITests.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		7A531E4E869D9BCEC344E4B6 /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+			buildConfigurations = (
+				344A45897B956C58AE667819 /* Debug */,
+				DBFCBF31F9E07C3A84D5F827 /* Release */,
+			);
+		};
+		6BAFA443783CBEE708016231 /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B15389E4AAD8197BECCFB4 /* PBXBuildFile */,
+				AED007B0AA948AC9C1D27E2F /* PBXBuildFile */,
+				F622175AAF952A8B272AC21B /* PBXBuildFile */,
+				E9ADD31A650C9695E7105A6F /* PBXBuildFile */,
+				0993970A0E2B11D791B82EE5 /* PBXBuildFile */,
+				1E9B2216B69B476058527B0E /* PBXBuildFile */,
+				2498749272F725531CEC41C2 /* PBXBuildFile */,
+				B4AD79E5D92DE9CA00AF32A9 /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EEC7541C0E539CC0721A985 /* WidgetExtension/ProgressWidget.swift */ = {
+			path = WidgetExtension/ProgressWidget.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		01BB8CA7356AA86F5888C6B2 /* CandleLab */ = {
+			productType = "com.apple.product-type.application";
+			productReference = 36B723B06AB5D0665543ABF2 /* CandleLab.app */;
+			buildConfigurationList = 1CA59C9C8B332C8C844B9148 /* XCConfigurationList */;
+			packageProductDependencies = (
+			);
+			productName = CandleLab;
+			isa = PBXNativeTarget;
+			buildPhases = (
+				6BAFA443783CBEE708016231 /* PBXSourcesBuildPhase */,
+				83CEA1CD0B13F24879D24DC0 /* PBXResourcesBuildPhase */,
+				C26A6FEBC3556CBF06252E98 /* Embed App Extensions */,
+			);
+			dependencies = (
+				6130E84BD7063A3E0843313D /* PBXTargetDependency */,
+			);
+			name = CandleLab;
+			buildRules = (
+			);
+		};
+		344A45897B956C58AE667819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			name = Debug;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MARKETING_VERSION = 1.0.0;
+				INFOPLIST_FILE = WidgetExtension/Info.plist;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GENERATE_INFOPLIST_FILE = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				CODE_SIGN_ENTITLEMENTS = Support/Widget.entitlements;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.candlelab.study.widget;
+			};
+		};
+		F5913A0601866D119D2BBA0E /* PBXSourcesBuildPhase */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200E9E9762C6FC9CC3175300 /* PBXBuildFile */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6130E84BD7063A3E0843313D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBB96FBE490A719DEF840F01 /* CandleLabWidget */;
+			targetProxy = 5608936FC053CFF949D5D07F /* PBXContainerItemProxy */;
+		};
+		F1268FCE3B3423C57943617E /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			children = (
+				36B723B06AB5D0665543ABF2 /* CandleLab.app */,
+				D831D77CDE24908403BC1E1C /* CandleLabTests.xctest */,
+				6197B21561C42C8754BA69A3 /* CandleLabUITests.xctest */,
+				940CF04FFD17809D30FDA71F /* CandleLabWidget.appex */,
+				4302D44B9225D6BE01B0048A /* CandleLabWidgetTests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		519938AD812D5521465FF9F1 /* XCConfigurationList */ = {
+			isa = XCConfigurationList;
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+			buildConfigurations = (
+				859B656B29209314899B1408 /* Debug */,
+				91504D0195B83AFF0526B911 /* Release */,
+			);
+		};
+		0B595702EF3E5E9DF82AEDD1 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 843895DE902CD61A78F96A0C /* CandleLabUITests.swift */;
+		};
+		D1DBAACDFF032E783F6D19EA /* PBXProject */ = {
+			buildConfigurationList = 83FC324999AFB5A19358D352 /* XCConfigurationList */;
+			targets = (
+				01BB8CA7356AA86F5888C6B2 /* CandleLab */,
+				19EF8F0284CDB9EB0C82889F /* CandleLabTests */,
+				A9E35E6A4473B6457E6E6AC1 /* CandleLabUITests */,
+				EBB96FBE490A719DEF840F01 /* CandleLabWidget */,
+				3BA0EBBC862BFBBE88413308 /* CandleLabWidgetTests */,
+			);
+			minimizedProjectReferenceProxies = 1;
+			developmentRegion = en;
+			knownRegions = (
+				Base,
+				en,
+			);
+			isa = PBXProject;
+			productRefGroup = F1268FCE3B3423C57943617E /* Products */;
+			projectDirPath = "";
+			attributes = {
+				LastUpgradeCheck = 1430;
+				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+					01BB8CA7356AA86F5888C6B2 /* CandleLab */ = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+						DevelopmentTeam = "";
+					};
+					EBB96FBE490A719DEF840F01 /* CandleLabWidget */ = {
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A9E35E6A4473B6457E6E6AC1 /* CandleLabUITests */ = {
+						TestTargetID = 01BB8CA7356AA86F5888C6B2 /* CandleLab */;
+						DevelopmentTeam = "";
+					};
+					19EF8F0284CDB9EB0C82889F /* CandleLabTests */ = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			hasScannedForEncodings = 0;
+			projectRoot = "";
+			preferredProjectObjectVersion = 77;
+			mainGroup = 2EC972F07F3AFBE01C032227 /* PBXGroup */;
+		};
+		D0B15389E4AAD8197BECCFB4 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 3B0ABBDD609524643C017EDD /* CandleLabApp.swift */;
+		};
+		E891F34BAAEB6F5775C807AB /* StudyViews.swift */ = {
+			path = StudyViews.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		200E9E9762C6FC9CC3175300 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = AE7C61E5E47D67B3CDD67EF7 /* WidgetTests/WidgetTests.swift */;
+		};
+		940CF04FFD17809D30FDA71F /* CandleLabWidget.appex */ = {
+			path = CandleLabWidget.appex;
+			isa = PBXFileReference;
+			explicitFileType = "wrapper.app-extension";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		843895DE902CD61A78F96A0C /* CandleLabUITests.swift */ = {
+			path = CandleLabUITests.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = "<group>";
+		};
+		37591CD750295D0880B07708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candlelab.CandleLabUITests;
+				SDKROOT = iphoneos;
+				TEST_TARGET_NAME = CandleLab;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE4CE726E1DE87D68AD90F4C /* Sources/WidgetBridge.swift */ = {
+			path = Sources/WidgetBridge.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		0D43EFA68B7D4DF20FAB1194 /* PrivacyInfo.xcprivacy */ = {
+			isa = PBXFileReference;
+			path = PrivacyInfo.xcprivacy;
+			sourceTree = "<group>";
+		};
+		AE7C61E5E47D67B3CDD67EF7 /* WidgetTests/WidgetTests.swift */ = {
+			path = WidgetTests/WidgetTests.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		456B9EF31DEA922E5164F548 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 9A3FF9277ECABF5DF3197065 /* Assets.xcassets */;
+		};
+		DBFCBF31F9E07C3A84D5F827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			name = Release;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MARKETING_VERSION = 1.0.0;
+				INFOPLIST_FILE = WidgetExtension/Info.plist;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GENERATE_INFOPLIST_FILE = NO;
+				CODE_SIGN_ENTITLEMENTS = Support/Widget.entitlements;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.candlelab.study.widget;
+			};
+		};
+		C4C9FC34E5527B57E6451131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1DBAACDFF032E783F6D19EA /* PBXProject */;
+			remoteGlobalIDString = 01BB8CA7356AA86F5888C6B2 /* CandleLab */;
+			remoteInfo = CandleLab;
+			proxyType = 1;
+		};
+		6C8357D29FAA7C10669D048A /* WidgetShared/WidgetIdentity.swift */ = {
+			path = WidgetShared/WidgetIdentity.swift;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			sourceTree = SOURCE_ROOT;
+		};
+		09D5A2AA45CDF43B96917826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01BB8CA7356AA86F5888C6B2 /* CandleLab */;
+			targetProxy = 7EF1723FE949E97310F5CC1D /* PBXContainerItemProxy */;
+		};
+		F93B69EA73DB7283418FF441 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 52A1CB87B10FA6E557EB05CA /* WidgetTests/WidgetIntegrationTests.swift */;
+		};
+		B907C05F90E20F56FC6D075D /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = 0D43EFA68B7D4DF20FAB1194 /* PrivacyInfo.xcprivacy */;
+		};
+		0993970A0E2B11D791B82EE5 /* PBXBuildFile */ = {
+			isa = PBXBuildFile;
+			fileRef = B9E4859DBDF7FC0815361E93 /* WidgetShared/ProgressWidgetView.swift */;
+		};
+		7EF1723FE949E97310F5CC1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1DBAACDFF032E783F6D19EA /* PBXProject */;
+			remoteGlobalIDString = 01BB8CA7356AA86F5888C6B2 /* CandleLab */;
+			remoteInfo = CandleLab;
+			proxyType = 1;
+		};
+		7D17A9CB9EECCAFCDE46CA95 /* Sources */ = {
+			path = Sources;
+			isa = PBXGroup;
+			children = (
+				9A3FF9277ECABF5DF3197065 /* Assets.xcassets */,
+				3B0ABBDD609524643C017EDD /* CandleLabApp.swift */,
+				72988615A04E8B0850CEAD1D /* Chart.swift */,
+				3F78A4801E25E9E8F0B5985C /* Learning.swift */,
+				0D43EFA68B7D4DF20FAB1194 /* PrivacyInfo.xcprivacy */,
+				E891F34BAAEB6F5775C807AB /* StudyViews.swift */,
+			);
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = D1DBAACDFF032E783F6D19EA /* PBXProject */;
+}

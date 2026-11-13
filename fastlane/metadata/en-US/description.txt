@@ -1,0 +1,7 @@
+Learn to read candlestick charts through 24 exercises across six topics, from candle anatomy and trends to volume and the limits of analysis.
+
+Explore synthetic charts with candle details, volume bars, and adjustable time intervals. Select candles, zoom, pan, and replay the chart as you work through each exercise. Use levels, trend lines, and zones to mark up a chart, then compare your work with a reference and read an explanation.
+
+The lesson library includes six short, searchable reads. Track your accuracy, mastered exercises, and completed lessons in Progress, and revisit recent incorrect attempts.
+
+The training instruments use synthetic prices in arbitrary study units, not exchange quotes. The course is presented in English and is designed for learning rather than making predictions.
