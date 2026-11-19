@@ -53,5 +53,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>$(INFOPLIST_KEY_NSCameraUsageDescription)</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>$(INFOPLIST_KEY_NSMicrophoneUsageDescription)</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(INFOPLIST_KEY_NSPhotoLibraryUsageDescription)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 </dict>
 </plist>

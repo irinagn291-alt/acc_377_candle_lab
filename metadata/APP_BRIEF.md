@@ -1,4 +1,4 @@
-<!-- gf-brief source=85acdb0809169fbea9c4a3cf6cd861d4590446dd2c8dcee4dfadeca06dd7d940 written=2026-11-14T12:31:06+03:00 -->
+<!-- gf-brief source=85acdb0809169fbea9c4a3cf6cd861d4590446dd2c8dcee4dfadeca06dd7d940 written=2026-11-14T13:16:15+03:00 -->
 # Candle Lab
 
 ## What it is

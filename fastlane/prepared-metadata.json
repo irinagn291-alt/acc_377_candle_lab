@@ -1,14 +1,19 @@
 {
   "version": "a96b441623ef4828bab8fcb1236107f5",
   "locales": [
+    "en-US",
     "en-GB",
     "ar-SA",
-    "en-US",
     "ko"
   ],
   "files": {
-    "metadata/review_information/notes.txt": "638cdee513a37ab10cf7151b32903689676b4b300df947a897bc8b9cfa6afdd2",
+    "metadata/review_information/notes.txt": "d7785573a7afb27e7b9fec0393d7ed440fb3c01604cb05d945acde5bee88693e",
     "metadata/primary_category.txt": "2e3a79b2118e666aa4b38957fcfb050fcdb602bf38fa14830bf3173beec8084b",
+    "metadata/en-US/subtitle.txt": "164673d5f6dd783e4dc80e032c643e1d7a69c124dc7cc18975a7cf113690f7ba",
+    "metadata/en-US/description.txt": "492e01ce5a5af1f1d866fe68cf2b0d184ff69d6ee8441decc51c836b3280883a",
+    "metadata/en-US/keywords.txt": "43a3f238d0c5a0391ad88d4bcb18e2f7dd67366664df2b4accb24d14fa09b2d3",
+    "metadata/en-US/promotional_text.txt": "723e8d9e6310fd503a4ee2f988e3bd5c8b0f91756268f17ac28a2306385cf504",
+    "metadata/en-US/release_notes.txt": "2e4914bb7830df8eca597b596b556b04e0e2a43896b1ea8a161c2eb9e3ecb1f9",
     "metadata/en-GB/subtitle.txt": "164673d5f6dd783e4dc80e032c643e1d7a69c124dc7cc18975a7cf113690f7ba",
     "metadata/en-GB/description.txt": "ba0d58794e4c451c21cd4d3483a7f9c3ebe7e157683464a4098e33504ea01760",
     "metadata/en-GB/keywords.txt": "43a3f238d0c5a0391ad88d4bcb18e2f7dd67366664df2b4accb24d14fa09b2d3",
@@ -19,11 +24,6 @@
     "metadata/ar-SA/keywords.txt": "fdcbc341cdb794f11bed2f7048bd2fc46ed1db445a0c6ade7a10ebce37af0c8d",
     "metadata/ar-SA/promotional_text.txt": "0f1223541f501db03f8545d4653bafa3477c3296ffa488d4407ab10d46d656a2",
     "metadata/ar-SA/release_notes.txt": "32d2840421cc73a36226c16cf165706dc6595d6bd5898a609682fb01bcd75726",
-    "metadata/en-US/subtitle.txt": "164673d5f6dd783e4dc80e032c643e1d7a69c124dc7cc18975a7cf113690f7ba",
-    "metadata/en-US/description.txt": "492e01ce5a5af1f1d866fe68cf2b0d184ff69d6ee8441decc51c836b3280883a",
-    "metadata/en-US/keywords.txt": "43a3f238d0c5a0391ad88d4bcb18e2f7dd67366664df2b4accb24d14fa09b2d3",
-    "metadata/en-US/promotional_text.txt": "723e8d9e6310fd503a4ee2f988e3bd5c8b0f91756268f17ac28a2306385cf504",
-    "metadata/en-US/release_notes.txt": "2e4914bb7830df8eca597b596b556b04e0e2a43896b1ea8a161c2eb9e3ecb1f9",
     "metadata/ko/subtitle.txt": "c0091ce936ca1bb1e334f61af7d4290593854437e6db74d03ab850832f7fb8fc",
     "metadata/ko/description.txt": "9e7b2c38781411bbe9900146f558dc9f06609dccec965921fe664f8bdcb119a9",
     "metadata/ko/keywords.txt": "e865e2c8ee67468dab663fd1915b873f9aab62f1c8cafc1f7b5ac01a91e57d30",
